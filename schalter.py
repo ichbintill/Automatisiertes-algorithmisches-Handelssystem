@@ -13,9 +13,9 @@ import socket
 
 ## google link
 scopes_lesen=['https://www.googleapis.com/auth/spreadsheets.readonly']     
-sheet_id_tachometer='1ttLnVhqSVZI4URvsiXKxrMeQy_wyD8MgN3muFVv0otM'         # sheet_id
+sheet_id_tachometer=''         # sheet_id
 sheet_range_tachometer='Sheet1!A1'                                         # sheet_range
-json='./rcallput-7922e8a588bd.json'                                        # Link vom google_sheet.json
+json='.json'                                        # Link vom google_sheet.json
 
 ## Netzwerkverbindung testen
 try :
