@@ -114,11 +114,11 @@ if internet_test=="OK" :
 ## google link
 scopes_schreiben=['https://www.googleapis.com/auth/spreadsheets']
 
-sheet_id_tachometer='1ttLnVhqSVZI4URvsiXKxrMeQy_wyD8MgN3muFVv0otM'          # sheet_id
+sheet_id_tachometer=''          # sheet_id
 
 sheet_range_tachometer='Sheet1!A2'                                          # sheet_range
 
-json='./rcallput-7922e8a588bd.json'                                         # Link vom google_sheet.json
+json='.json'                                         # Link vom google_sheet.json
 
 ## Handelsstatus und Bestandsgewinn/-verlust zusammenfassen
 if internet_test=="OK" :
