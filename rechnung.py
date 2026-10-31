@@ -30,15 +30,15 @@ if internet_test=="OK" :
 scopes_schreiben=['https://www.googleapis.com/auth/spreadsheets']
 scopes_lesen=['https://www.googleapis.com/auth/spreadsheets.readonly']
 
-sheet_id_AB='1ijogqYh7Fr9TAsm_sBJ3DiVp78F4iWTgGATOEGR5jtI'                 # sheet_id
-sheet_id_BA='1MdbieD-ERzC0vouKCyFxGYaIs42v7xJE132hZqX5reA'                 # sheet_id
-# sheet_id_tachometer='1ttLnVhqSVZI4URvsiXKxrMeQy_wyD8MgN3muFVv0otM'
+sheet_id_AB=''                 # sheet_id
+sheet_id_BA=''                 # sheet_id
+# sheet_id_tachometer=''
 
 sheet_range_AB='Sheet1'                                                    # sheet_range
 sheet_range_BA='Sheet1'                                                    # sheet_range
 # sheet_range_tachometer='Sheet1!A2'                                       # sheet_range
 
-json='./rcallput-7922e8a588bd.json'                                        # Link vom google_sheet.json
+json='.json'                                        # Link vom google_sheet.json
 
 ## Netzwerkverbindung testen 
 if internet_test=="OK" :
